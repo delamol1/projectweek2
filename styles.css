@@ -300,51 +300,107 @@ font-weight: 700;
   border: 1px solid rgba(255, 255, 255, 0.5);
   background-color: #282f35;
   color:white;
-
-  
 }
 
 
 .container__footer{
   grid-row: 7/8;
   grid-column:1/7;
-  background-color:rgb(94, 255, 0);
+  background-color: #f7f7f7;
 }
 
 .container__mailing{ 
   grid-row: 6/7;
   grid-column:1/7;
-  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* Style for "Stay on th" */
+
+ color: #848789;
+ font-family: Lato;
+ font-size: 24px;
+ font-style: italic;
+ line-height: 34px;
 }
 
-.container__mailing input {
 
+
+.container__mailing__input {
+	/* Style for "Shape 5" */
 width: 400px;
 height: 69px;
 border: 1px solid #d3d7d9;
 background-color: #ffffff;
+padding:0;
+margin:0;
+/* Style for "enter your" */
 color: #929292;
 font-family: Lato;
 font-size: 20px;
 font-style: italic;
 line-height: 24px;
-/* Style for "enter your" */
 }
-
-
 .container__mailing_btn{
 width: 127px;
 height: 69px;
 background-color: #64c29e;
+border: 1px solid #d3d7d9;
+padding:0;
+margin:0;
 }
 
-.mailing_btn_go{
-width: 36px;
-height: 17px;
+.mailing_btn_p{
+/* Style for "GO" */
+
 color: #ffffff;
 font-family: Lato;
 font-size: 24px;
 font-weight: 300;
-line-height: 24px;
 text-transform: uppercase;
+margin:auto;
+font-weight: 300;
+line-height: 24px;
+
+}
+
+.container__mailing_div{
+	/* Style for "Imput" */
+width: 535px;
+height: 73px;
+}
+
+.container__footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__address h1{
+	/* Style for "AOD New Yo" */
+font-family: "Lato - Bold";
+font-size: 16px;
+font-weight: 700;
+font-family: "Lato - Italic";
+color: #848789;
+
+}
+
+.container__footer p{
+color: #848789;
+font-family: Lato;
+font-size: 14px;
+font-style: italic;
+line-height: 17.87px;
+}
+
+.container__footer span{
+color: #848789;
+font-family: Lato;
+font-size: 18px;
+font-style: italic;
+line-height: 30.87px;
+padding-right: 20px;
+
 }
