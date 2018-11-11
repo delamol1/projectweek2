@@ -12,7 +12,7 @@
 .container__header{
 grid-row: 1/2;
 grid-column:1/7;
-background-image:url(images/layer_7.png);
+background-image:url(../images/layer_7.png);
 color: #4d4959;
 font-family: Lato;
 font-size: 13px;
@@ -112,12 +112,12 @@ letter-spacing: 3.6px;
   grid-column:1/3;
   grid-row:1/3;
   background-color: #282f35;
-  background-image:url(images/layer_10.png);
+  background-image:url(../images/layer_10.png);
 }
 .container__work_right-image{
   grid-column:3/4;
   grid-row:2/3;
-  background-image:url(images/layer_11.png);
+  background-image:url(../images/layer_11.png);
 }
 
 
@@ -147,7 +147,7 @@ letter-spacing: 3.6px;
 .container__work_blue-bike{
 grid-column:2/4;
 grid-row:3/5;
-background-image:url(images/layer_12.png);
+background-image:url(../images/layer_12.png);
 background-color: #282f35;
 }
 
@@ -155,21 +155,21 @@ background-color: #282f35;
 grid-column:1/2;
 grid-row:4/5;
 background-color: #282f35;
-background-image:url(images/layer_13.png);
+background-image:url(../images/layer_13.png);
 }
 
 .container__work_red-bike{
   grid-row: 5/7;
   grid-column:1/2;
   background-color: #282f35;
-  background-image:url(images/layer_15.png);
+  background-image:url(../images/layer_15.png);
 }
 
 .container__work_tire{
   grid-row: 6/9;
   grid-column:2/3;
   background-color: #282f35;
-  background-image:url(images/layer_16.png);
+  background-image:url(../images/layer_16.png);
 }
 
 
@@ -177,7 +177,7 @@ background-image:url(images/layer_13.png);
   grid-row: 5/7;
   grid-column:3/4;
   background-color: #282f35;
-  background-image:url(images/layer_14.png);
+  background-image:url(../images/layer_14.png);
 }
 
 
@@ -213,7 +213,6 @@ font-weight: 700;
 .container__shop{ 
   grid-row: 5/6;
   grid-column:1/7;
-  background-color:blue;
   display:grid;
   grid-template-rows:267px 267px 200px;
   grid-template-columns:267px 267px 267px 267px 267px 267px;
@@ -223,62 +222,62 @@ font-weight: 700;
 .container__shop_saddle2{
   grid-row: 1/2;
   grid-column:1/2;
-  background-image:url(images/layer_19.png);
+  background-image:url(../images/layer_19.png);
 }
 
 .container__shop_saddle3{
   grid-row: 2/3;
   grid-column:1/3;
-  background-image:url(images/layer_20.png);
+  background-image:url(../images/layer_20.png);
 }
 
 .container__shop_bag{
   grid-row: 2/3;
   grid-column:6/7;
-  background-image:url(images/layer_26.png);
+  background-image:url(../images/layer_26.png);
 }
 
 
 .container__shop_saddle-brown{
   grid-row: 2/3;
   grid-column:5/6;
-  background-image:url(images/layer_24.png);
+  background-image:url(../images/layer_24.png);
 }
 
 .container__shop_room{
   grid-row: 1/2;
   grid-column:5/7;
-  background-image:url(images/layer_23.png);
+  background-image:url(../images/layer_23.png);
 }
 
 .container__shop_bottles{
   grid-row:1/2;
   grid-column:2/3;
-  background-image:url(images/layer_21.png);
+  background-image:url(../images/layer_21.png);
 }
 
 .container__shop_bike{
   grid-row:1/3;
   grid-column:4/5;
-  background-image:url(images/layer_25.png);
+  background-image:url(../images/layer_25.png);
 }
 
 .container__shop_bike-bag{
   grid-row:1/3;
   grid-column:3/4;
-  background-image:url(images/layer_22.png);
+  background-image:url(../images/layer_22.png);
 }
 
 .container__shop_bike_room{
   grid-row:1/2;
   grid-column:5/7;
-  background-image:url(images/layer_23.png);
+  background-image:url(../images/layer_23.png);
 }
 
 .container__shop_bike_room{
   grid-row:1/2;
   grid-column:5/7;
-  background-image:url(images/layer_23.png);
+  background-image:url(../images/layer_23.png);
 }
 
 .container__shop_black{
